@@ -1,0 +1,52 @@
+@charset "UTF-8";
+header {
+	text-align: right;
+}
+
+h1 {
+	text-align: center;
+}
+	
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.errorMsg{
+	color: red;
+}
+.successMsg{
+	color: red;
+}
+.font20 {
+	font-size: 20pt;
+}
+
+table {
+
+	margin: 0 auto;
+}
+
+.width70 {
+	width: 70px;
+}
+
+.width120 {
+	width: 120px;
+}
+
+.bgcSilver tbody tr:nth-child(add) {
+	background-color: silver; /* 奇数行の背景色 */
+}
+
+#page_top {
+    position: sticky;
+    text-align: right;
+    bottom: 10px; /* 下から10ピクセル */
+    right: 10px;  /* 右から10ピクセル */
+    z-index: 10;  /* 他の要素の上に表示する */
+    padding: 10px; /* パディング */
+}
